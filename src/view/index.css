@@ -1,0 +1,61 @@
+
+.wrap{
+    max-width: 980px ;
+    margin: 0 auto ;
+}
+#logo{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.pageWrap{
+    min-height: 100vh;    /*vh 屏幕高度*/
+    display: flex;
+    flex-direction: column;
+}
+.headerDivder{
+    float: left;
+    height: 44px !important;
+    margin: 10px 0 !important;
+}
+#nav{
+    float: left;
+    background: none;
+    border: none;
+    line-height: 62px;
+    margin-left: 30px;
+
+}
+#nav a{
+    color: #ffffff;
+}
+    
+#nav .ant-menu-item-selected a{
+    color: #1890ff;
+}
+
+.xsNav{
+    position: absolute ;
+    right: 0 ;
+    top: 0 ;
+    width: auto ;
+
+}
+.main{
+    flex: 1;
+}
+.main .wrap{
+    border: 1px solid #cccccc;
+    border-top: none;
+}
+.indexMenu li{
+    transition: none;
+    margin-right: -1px;
+}
+.indexMenu .ant-menu-item:hover{
+    background-color: #e6f7ff;
+}
+.indexMenu .ant-menu-item-selected, .indexMenu li:hover{
+    border-right: 3px solid #1890ff;
+}
