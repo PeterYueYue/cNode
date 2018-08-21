@@ -5,15 +5,15 @@ import registerServiceWorker from './registerServiceWorker';
 
 
 // 两种Route
-// import {HashRouter} from "react-router-dom";
-import {BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
+// import {BrowserRouter} from "react-router-dom";
 
 
 ReactDOM.render(
 
-    <BrowserRouter>
+    <HashRouter>
         <App />
-    </BrowserRouter>
+    </HashRouter>
 
 
     , document.getElementById('root'));
