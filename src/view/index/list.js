@@ -1,13 +1,14 @@
 import React,{Component} from "react";
+import {List} from "antd";
+import data from "./data.js";
 
-
-class List extends Component{
+class IndexList extends Component{
     render(){
-        return(
-            <div>1</div>
-        )
+        return(<List loading={false}>
+            
+        </List>)
     }
 
 
 }
-export default List;
+export default IndexList;

@@ -16,10 +16,10 @@ class RouterIndex extends Component{
                 <Route path="/" exact render={ ()=>(
                     // exact 严格匹配
                     // 重定向
-                    <Redirect  to="/index"/>
+                    <Redirect  to="/index/all"/>
                 )} />
 
-                <Route path="/index"    component={Index} />
+                <Route path="/index/:id"    component={Index} />
                 <Route path="/book"     component={Book} />
                 <Route path="/details"  component={Details} />
                 <Route path="/user"     component={User} />

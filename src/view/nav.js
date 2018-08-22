@@ -6,7 +6,7 @@ export default class Nav extends Component{
         let {mode,id} = this.props;
         return(<Menu mode={mode} theme="light" id={id}>
                 <Menu.Item>
-                    <Link to="/index"> <Icon type="home"></Icon>  首页</Link>
+                    <Link to="/index/:id"> <Icon type="home"></Icon>  首页</Link>
                 </Menu.Item>
                 <Menu.Item>
                     <Link to="/book"><Icon type="book"></Icon>教程</Link>

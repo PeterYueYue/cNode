@@ -2,9 +2,11 @@ import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import {Menu, Row, Col} from "antd";
 import IndexMenu from "./indexMenu";
-import List from "./list";
+import IndexList from "./list";
 class Index extends Component {
     render(){
+
+        console.log(this.props)
         return (
             <Row className="wrap" >
                 <Col md={6} xd={24}>
@@ -14,7 +16,7 @@ class Index extends Component {
                     />
                 </Col>
                 <Col md={18} xd={24} className="indexList">
-                     <List/>
+                     <IndexList/>
                 </Col>
             </Row>
         )
